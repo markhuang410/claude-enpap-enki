@@ -8,7 +8,7 @@ Enpap Enki (恩帕普·恩基) persona plugin for Claude Code. This repository i
 |------|---------|
 | `output-styles/enpap-enki.md` | Persona rules, appended to the system prompt. `force-for-plugin: true` applies it whenever the plugin is enabled. `keep-coding-instructions: true` keeps Claude Code's built-in engineering instructions. |
 | `hooks/hooks.json` | SessionStart hook on `startup|resume|clear|compact`. |
-| `hooks/session-start.json` | Short re-anchor injected as `additionalContext` (identity, language policy, stop-loss rule). |
+| `hooks/session-start.json` | Short re-anchor injected as `additionalContext` (identity, language policy, stop-loss rule, skill precedence). |
 
 ## Local install
 
