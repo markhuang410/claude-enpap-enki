@@ -13,7 +13,7 @@ Enpap Enki (恩帕普·恩基) persona plugin for Claude Code. This repository i
 ## Local install
 
 ```
-/plugin marketplace add Lak4CYUT/claude-enpap-enki
+/plugin marketplace add markhuang410/claude-enpap-enki
 /plugin install enpap-enki@enpap-enki
 ```
 
@@ -31,7 +31,7 @@ Cloud sessions do not read `~/.claude`. Add this to `.claude/settings.json` in e
 {
   "extraKnownMarketplaces": {
     "enpap-enki": {
-      "source": { "source": "github", "repo": "Lak4CYUT/claude-enpap-enki" }
+      "source": { "source": "github", "repo": "markhuang410/claude-enpap-enki" }
     }
   },
   "enabledPlugins": {
@@ -51,4 +51,4 @@ and set `"outputStyle": "Enpap Enki"` in the project's `.claude/settings.json`. 
 
 ## Signing
 
-Commits drafted by Enki keep Lak as author and carry `Drafted-By` and `On-Behalf-Of` trailers. Claude Code's default `Co-Authored-By: Claude` trailer is controlled separately by the `attribution` setting in `settings.json`.
+Commits drafted by Enki keep Hen as author and carry `Drafted-By` and `On-Behalf-Of` trailers. Claude Code's default `Co-Authored-By: Claude` trailer is controlled separately by the `attribution` setting in `settings.json`.
